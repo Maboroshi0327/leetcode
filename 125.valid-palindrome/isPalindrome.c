@@ -2,8 +2,7 @@
 #include <stdbool.h>
 #include <string.h>
 
-bool isPalindrome(char *s)
-{
+bool isPalindrome(char *s) {
     int left = 0;
     int right = strlen(s) - 1;
 
